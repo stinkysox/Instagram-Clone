@@ -1,0 +1,13 @@
+.main-container {
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+
+.story-image {
+  height: 80px;
+  border-radius: 50%;
+}
+
+

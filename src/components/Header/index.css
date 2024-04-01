@@ -1,0 +1,132 @@
+.header-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.options-menu-small {
+  display: none;
+}
+
+.search-container-small {
+  display: none;
+}
+
+.header-bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-options-container {
+  display: flex;
+  align-items: center;
+}
+
+.options-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.option {
+  color: #262626;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.active {
+  color: #4094ef;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.log-out-btn {
+  background-color: #4094ef;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+}
+
+.search-container {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.search-container button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  color: gray;
+}
+
+.header-options-small {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header-options-container {
+    display: none;
+  }
+
+  .header-options-small {
+    display: inline-block;
+  }
+
+  .small-menu-options {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+  }
+
+  .log-out-btn {
+    background-color: #4094ef;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+
+  .options-menu-small {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+  }
+  .search-container-small {
+    display: block;
+    text-align: center;
+  }
+  .search-el-small {
+    margin-left: 12px;
+    padding: 8px 12px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 6px;
+    outline: none;
+  }
+  .btn-small {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}

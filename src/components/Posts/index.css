@@ -1,0 +1,59 @@
+.post-item {
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+}
+
+.profile-pic-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 1px #e20337,
+    0 0 0 1px #c60188,
+    0 0 0 1px #7700c3;
+}
+
+.post-image {
+  width: 100%;
+}
+
+.user-name {
+  color: #262626;
+  font-weight: 500;
+}
+.like-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.like-share-btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+.post-details-container {
+  color: #262626;
+}
+
+.likes-count {
+  font-weight: 500;
+}
+
+.commenter {
+  font-weight: 500;
+}
+
+.created-at {
+  color: #989898;
+  font-size: 14px;
+}

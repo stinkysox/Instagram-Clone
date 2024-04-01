@@ -1,0 +1,41 @@
+.home-bg-container {
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.loader-container {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.posts-container {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-container {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  height: 80vh;
+}
+
+.retry-btn {
+  background-color: #4094ef;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
